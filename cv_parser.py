@@ -88,5 +88,5 @@ def parse_cvs():
     return redirect(url_for('download_output'))
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0',debug=True)
+    app.run()
 
